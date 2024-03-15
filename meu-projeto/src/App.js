@@ -2,12 +2,15 @@ import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './components/HelloWorld';
 import Frase from './components/Frase';
+import SayMyName from './components/SayMyName';
+import Pessoa from './components/Pessoa';
 
 function App() {
 
   const name = 'Fernanda';
   const newName = name.toUpperCase();
-  const url ='https://via.placeholder.com/150'
+  const url ='https://via.placeholder.com/150';
+  const nomeExemplo = 'Maria';
 
   function sum(a,b){
     return a+b;
@@ -22,6 +25,9 @@ function App() {
       <img src={url} alt="Minha Imagem"/>
       <HelloWorld/>
       <Frase/>
+      <SayMyName nome="Fernanda"/>
+      <SayMyName nome={nomeExemplo}/>
+      <Pessoa nome="João" idade="20" profissao="desenvolvedor web" foto="https://via.placeholder.com/150"/>
     </div>
   );
 }
