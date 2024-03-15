@@ -1,0 +1,12 @@
+/*Uma espécie de componente css, para ser importado para a função/componente JS*/
+
+.frase_container{
+    background-color: #333;
+    border: 1px solid #111;
+}
+
+.fraseContent{
+    color: #fff;
+    background-color: #333;
+    margin: 0;
+}
