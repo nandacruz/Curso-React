@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import HelloWorld from './components/HelloWorld';
 import Frase from './components/Frase';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import List from './components/List';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <SayMyName nome="Fernanda"/>
       <SayMyName nome={nomeExemplo}/>
       <Pessoa nome="João" idade="20" profissao="desenvolvedor web" foto="https://via.placeholder.com/150"/>
+      <List/>
     </div>
   );
 }
