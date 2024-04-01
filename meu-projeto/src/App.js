@@ -2,6 +2,7 @@
 import './App.css';
 import Evento from './components/Evento';
 import Form from './components/Form';
+import Condicional from './components/Condicional';
 /*
 import HelloWorld from './components/HelloWorld';
 import Frase from './components/Frase';
@@ -27,11 +28,16 @@ function App() {
 
    
     <div className="App">
+       {/*
       <h1>Testando Eventos</h1>
       <Evento/>
       <Evento numero ={1}/>
-      {/*<Evento numero ={2}/>*/}
+      <Evento numero ={2}/>     
       <Form/>
+      */} 
+
+      <h1>Renderização em condicional</h1>
+      <Condicional/>
     </div>
     
     //No html, podemos utilizar o class, mas se tratando do react o correto é utilizar "className"
